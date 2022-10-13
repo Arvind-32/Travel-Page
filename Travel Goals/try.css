@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: "Oleo script";
+}
+
+#page-logo a{
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(244, 226, 28);
+    padding: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    padding: 0;
+}
+
+header ul li{
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: rgb(244, 226, 28);
+    font-size: 24px;
+    padding: 12px;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 10px;
+}
+
+#hero{
+    height: 800px;
+    background-image: url(https://i.ibb.co/YdTwYXh/ocean.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content{
+    width: 900px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    padding: 50px 0;
+}
